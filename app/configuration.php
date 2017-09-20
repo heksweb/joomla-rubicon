@@ -1,10 +1,10 @@
 <?php
 class JConfig {
 	public $offline = '0';
-	public $offline_message = 'Сайт закрыт на техническое обслуживание.<br />Пожалуйста, зайдите позже.';
+	public $offline_message = 'This site is down for maintenance.<br />Please check back again soon.';
 	public $display_offline_message = '1';
 	public $offline_image = '';
-	public $sitename = 'рубикон.рф';
+	public $sitename = 'rubicon.ru';
 	public $editor = 'tinymce';
 	public $captcha = '0';
 	public $list_limit = '20';
@@ -18,7 +18,7 @@ class JConfig {
 	public $db = 'rubicon';
 	public $dbprefix = 'rub_';
 	public $live_site = '';
-	public $secret = 'zObs4haVKtYRSGb0';
+	public $secret = 'k7O8g0Bvt9EwF92X';
 	public $gzip = '0';
 	public $error_reporting = 'default';
 	public $helpurl = 'https://help.joomla.org/proxy/index.php?option=com_help&keyref=Help{major}{minor}:{keyref}';
@@ -32,7 +32,7 @@ class JConfig {
 	public $mailonline = '1';
 	public $mailer = 'mail';
 	public $mailfrom = 'heksweb@gmail.com';
-	public $fromname = 'рубикон.рф';
+	public $fromname = 'rubicon.ru';
 	public $sendmail = '/usr/sbin/sendmail';
 	public $smtpauth = '0';
 	public $smtpuser = '';
@@ -44,7 +44,7 @@ class JConfig {
 	public $cache_handler = 'file';
 	public $cachetime = '15';
 	public $cache_platformprefix = '0';
-	public $MetaDesc = 'Сайт компании, которая занимается охранно-пожарной сигнализацией';
+	public $MetaDesc = 'some';
 	public $MetaKeys = '';
 	public $MetaTitle = '1';
 	public $MetaAuthor = '1';
